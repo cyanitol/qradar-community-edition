@@ -2,7 +2,7 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 
 ## Table of Contents
 - [Scripts](#scripts)
-  * [Install](#install)
+  * [Installation](#installation)
   * [Short Message Service (SMS)](#short-message-service--sms-)
 - [Resources](#resources)
   * [Resourcess & Content by IBM](#resourcess---content-by-ibm)
@@ -13,7 +13,20 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 
 ## Scripts
 
-### Install 
+### Installation 
+The supplied scripts assume you have installed CentOS 7 and obtained an IP Address. 
+
+You need to copy the selinux.sh, install.sh, and  QRadarCE7_3_0_20171013140512.GA.iso files into the "tmp" directory for these scripts to work correctly. 
+
+selinux.sh 
+⋅⋅* Automatically disables SELinux and reboot to enforce it. 
+
+install.sh 
+⋅⋅* Performs update and upgrade to available packages.
+⋅⋅* Disables IPv6 permanently. 
+⋅⋅* Creates /media/cdrom directory for the mount.
+⋅⋅* Mounts QRadarCE7_3_0_20171013140512.GA.iso file.
+⋅⋅* Starts QRadar CE installation. 
 
 ### Short Message Service (SMS)
 
