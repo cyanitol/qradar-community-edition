@@ -30,8 +30,9 @@ You will need to run the selinux.sh script before proceeding with install.sh.
 4. Mounts QRadarCE7_3_0_20171013140512.GA.iso file.
 5. Starts QRadar CE installation. 
 
-### QRadar SMS Notification | [sms.sh](https://github.com/josh-morin/qradar-community-edition/blob/master/sms.sh) 
-Send text messages from QRadar ”Custom Actions” using Twilio API in a bash file. 
+### QRadar SMS Notification 
+Send text messages from QRadar ”Custom Actions” using Twilio API in a bash file.
+Working file:[sms.sh](https://github.com/josh-morin/qradar-community-edition/blob/master/sms.sh).
 
 #### Getting Started 
 1. Create an account from http://www.twilio.com
