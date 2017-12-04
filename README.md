@@ -19,6 +19,7 @@ The supplied scripts assume you have installed CentOS 7 and obtained an IP Addre
 You need to copy the selinux.sh, install.sh, and  QRadarCE7_3_0_20171013140512.GA.iso files into the "tmp" directory for these scripts to work correctly. 
 
 [selinux.sh](https://github.com/josh-morin/qradar-community-edition/blob/master/selinux.sh)
+
 You will need to run the selinux.sh script before proceeding with install.sh.
 1. Automatically disables SELinux and reboot to enforce it. 
 
