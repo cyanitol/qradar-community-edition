@@ -40,7 +40,7 @@ sleep 2s
 
 #mount the qradar community edition iso
 echo -e "\e[31mMounting QRadar CE ISO File...\e[0m"
-sudo mount -o loop /tmp/QRadarCE7_3_0_20171013140512.GA.iso /media/cdrom
+sudo mount -o loop /tmp/QRadarCE7_3_0.GA.iso /media/cdrom
 sleep 2s 
 
 #starting installation
