@@ -3,6 +3,8 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 ## Table of Contents
 - [Scripts](#scripts)
   * [Installation](#installation)
+- [Ansible Playbooks](#playbooks)
+  * [Templates](#templates)
 - [Resources](#resources)
   * [Resourcess & Content by IBM](#resourcess---content-by-ibm)
   * [Unofficial Resources](#unofficial-resources)
@@ -12,24 +14,33 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 
 ## Scripts
 
-### Installation 
-The supplied scripts assume you have installed CentOS 7 and obtained an IP Address. 
+### Installation
+The supplied scripts assume you have installed CentOS 7 and obtained an IP Address.
 
-You need to copy the selinux.sh, install.sh, and QRadarCE7_3_0.GA.iso files into the "tmp" directory for these scripts to work correctly. 
+You need to copy the selinux.sh, install.sh, and QRadarCE7_3_0.GA.iso files into the "tmp" directory for these scripts to work correctly.
 
-[selinux.sh](https://github.com/josh-morin/qradar-community-edition/blob/master/selinux.sh)
+[selinux.sh]()
 
 You will need to run the selinux.sh script before proceeding with install.sh.
-1. Automatically disables SELinux and reboot to enforce it. 
+1. Automatically disables SELinux and reboot to enforce it.
 
-[install.sh](https://github.com/josh-morin/qradar-community-edition/blob/master/install.sh) 
+[install.sh]()
 1. Performs update and upgrade to available packages.
-2. Disables IPv6 permanently. 
+2. Disables IPv6 permanently.
 3. Creates /media/cdrom directory for the mount.
 4. Mounts QRadarCE7_3_0.GA.iso file.
-5. Starts QRadar CE installation. 
+5. Starts QRadar CE installation.
 
-## Resources 
+## Playbooks
+
+### Templates
+The supplied playbooks assume you have the following setup:
+* Python ver 3.6, Ansible ver 2.4, and pyVmomi.
+
+[qrce.yml]()
+Creates QRadar CE template for VMware vCenter
+
+## Resources
 
 ### Resourcess & Content by IBM
 * [DeveloperWorks](https://ibm.biz/qradarforums)
@@ -37,9 +48,9 @@ You will need to run the selinux.sh script before proceeding with install.sh.
 * [Youtube](https://www.youtube.com/user/IBMSecuritySupport)
 * [Reddit](https://www.reddit.com/r/QRadar/)
 
-### Unofficial Resources 
+### Unofficial Resources
 * [Jose Bravo Youtube Tutorials](https://www.youtube.com/user/jbravovideos)
 * [QRadar Insights Blog](https://qradarinsights.com/)
 
-## Disclaimer 
-IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. 
+## Disclaimer
+IBM, the IBM logo, and ibm.com are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies.
