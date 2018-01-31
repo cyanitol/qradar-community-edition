@@ -6,7 +6,7 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 - [Ansible Playbooks](#playbooks)
   * [Templates](#templates)
 - [Resources](#resources)
-  * [Resourcess & Content by IBM](#resourcess---content-by-ibm)
+  * [Resourcess & Content by IBM](#resources---content-by-ibm)
   * [Unofficial Resources](#unofficial-resources)
 - [Disclaimer](#disclaimer)
 
@@ -43,7 +43,7 @@ Creates QRadar CE template for VMware vCenter
 
 ## Resources
 
-### Resourcess & Content by IBM
+### Resources & Content by IBM
 * [DeveloperWorks](https://ibm.biz/qradarforums)
 * [Github](https://github.com/ibm-security-intelligence)
 * [Youtube](https://www.youtube.com/user/IBMSecuritySupport)
