@@ -6,7 +6,7 @@ Unofficial third-party scripts and content for IBM [QRadar Community Edition](ht
 - [Ansible Playbooks](#playbooks)
   * [Templates](#templates)
 - [Resources](#resources)
-  * [Resourcess & Content by IBM](#resources---content-by-ibm)
+  * [Resources & Content by IBM](#resources---content-by-ibm)
   * [Unofficial Resources](#unofficial-resources)
 - [Disclaimer](#disclaimer)
 
