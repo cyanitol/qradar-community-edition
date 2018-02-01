@@ -41,6 +41,8 @@ The supplied playbooks assume you have the following setup:
 
 Creates QRadar CE template for VMware vCenter
 
+Note: Will add support for mounting QRadarCE7_3_0.GA.iso once [fix arrives](https://github.com/ansible/ansible/issues/21112) in version 2.5.
+
 ## Resources
 
 ### Resources & Content by IBM

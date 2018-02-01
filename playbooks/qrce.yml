@@ -6,24 +6,25 @@
   tasks:
   - name: QRadar CE VM template
     vmware_guest:
-          hostname: 192.168.1.102
-          username: administrator@domain.local
-          password: pwhere
+          hostname: 192.168.1.100
+          username: administrator@sso.local
+          password: PasswordHere
           validate_certs: no
-          esxi_hostname: 192.168.1.101
+          esxi_hostname: 192.168.1.102
           datacenter: Homelab
-          name: qradar_ce
+          name: QRadar_ce
           state: poweredoff
           is_template: yes
           guest_id: centos7_64Guest
           disk:
           - size_gb: 120
             type: thin
-            datastore: datastore2
+            datastore: datastore3
           hardware:
              memory_mb: 8000
              num_cpus: 2
              scsi: paravirtual
           networks:
             - name: VM Network
+              device_type: vmxnet3
 ...
