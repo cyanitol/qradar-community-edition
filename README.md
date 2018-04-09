@@ -37,11 +37,11 @@ You will need to run the selinux.sh script before proceeding with install.sh.
 
 ### Templates
 The supplied playbooks assume you have the following setup:
-* Python ver 3.6, Ansible ver 2.4, and pyVmomi.
+* Python ver 3.6, Ansible ver 2.5, and pyVmomi.
 
 #### [qrce.yml](https://github.com/josh-morin/qradar-community-edition/blob/master/playbooks/qrce.yml)
 Creates QRadar CE template for VMware vCenter
-* Note: Will add support for mounting QRadarCE7_3_0.GA.iso once [fix arrives](https://github.com/ansible/ansible/issues/21112) in version 2.5.
+
 
 ## Resources
 
